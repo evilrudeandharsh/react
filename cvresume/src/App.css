@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.App {
+    display: flex;               
+    flex-direction: row;        
+    
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ece0d1;
+}
+
+
+
+.header {
+    background-color: #62442a;
+    color: #f8f1e9;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.personal-info {
+    width: 30%;
+    background-color: #f0e4d4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.personal-info h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #62442a;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 50%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    height: fit-content;
+    width: 50%;
+
+}
+.resume-content {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 2px solid #dcd0c0;
+    text-align: center;
+}
+.resume-content h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.resume-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.resume-content p {
+    margin-bottom: 10px;
+}
+.resume-content ul {
+    margin-bottom: 10px;
+}
+.resume-content ul li {
+    margin-bottom: 5px;
+}
+
+
+.section-title{
+    color: 		#62442a;
+}
+
+form{
+    color: #403528;
+}
+button{
+    background-color: #403528;
+    color: #f8f1e9;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    padding: 10px 40px;
+ 
+    font-weight: 500;
+    font-size: 20px;
+   
+}
+
+button:hover {
+    background-color: #ff7300;
+    color: #f8f1e9;
+}
+
+.section{
+    width:50%;
+    
+    
+
+}
+
