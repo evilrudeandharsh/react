@@ -1,0 +1,149 @@
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  background-color: #03396C; 
+  align-items: center;
+  justify-content: center;
+
+}
+
+body{
+  background-color:#B3CDE0 ;
+  height: 100%;
+  width: 100%;
+  
+
+}
+
+.pokemontextimg{
+
+  height:80px;
+  width: 230px;
+  background-image: url(src/assets/International_Pokémon_logo.svg1.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  overflow: hidden;
+
+}
+.box{
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-container{
+
+  display: grid;
+  align-items: center;
+  width: 90%;
+  height : 30vw;
+  justify-content: center;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(2, 1fr);   
+  gap: 40px;
+  
+  padding: 10px;
+}
+
+.card{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border-color: #03396C;
+  justify-content: center;
+  background-color: #6a7ee3;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+
+
+}
+
+.card img{
+  width: 100px;
+  height: 100px;
+}
+
+.card p{
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+  background-color: #03396C;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover img{
+  transform: scale(1.5); /* Changed scale to 1.3 */
+  transition: 0.3s;
+}
+
+
+.popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #2D336B;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+
+}
+
+.innerpop{
+  
+  border : solid #6a7ee3 5px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #FFF2F2;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+.lostbutton{
+  background-color: #2D336B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.lostbutton:hover{
+  background-color: #6a7ee3;
+  color: white;
+}
