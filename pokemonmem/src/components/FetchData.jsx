@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Popup from "./popup.jsx";
+import Popup from "./Popup.jsx";
 
 const FetchData = () => {
   const [data, setData] = useState([]);
