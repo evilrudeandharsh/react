@@ -30,7 +30,7 @@ body{
 
   height:80px;
   width: 230px;
-  background-image: url(src/assets/International_Pokémon_logo.svg1.png);
+  background-image: url(/International_Pokémon_logo.svg1.png);
   background-size: cover;
   background-position: center;
   margin: 10px;
